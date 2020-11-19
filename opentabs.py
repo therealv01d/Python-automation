@@ -1,3 +1,12 @@
+'''
+Author: 5m0ky
+Description: When we search for a query on google the first thing we do is open the first multiple links before reading through them.
+This program automates that. Just add a query (with double quotation mark if there are spaces) and it will open first random links for you to go through.
+You can alias the program which will then work as a command in your terminal.
+Note: Just a small tool i wrote to automate regular activities. It's not production ready or have many features.
+If you want me to add some more features tell me.
+'''
+#!/usr/bin/env python3
 import webbrowser
 import random
 import requests
